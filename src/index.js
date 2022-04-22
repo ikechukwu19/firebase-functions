@@ -7,14 +7,7 @@ import { getFunctions, httpsCallable } from 'firebase/functions'
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyB7vzVQHcSvpnZ5fHRUjGnXaTSpk7f1-gc",
-  authDomain: "fir-functions-19822.firebaseapp.com",
-  projectId: "fir-functions-19822",
-  storageBucket: "fir-functions-19822.appspot.com",
-  messagingSenderId: "446866241484",
-  appId: "1:446866241484:web:826b61e0bf74c3820bcf69",
-};
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
